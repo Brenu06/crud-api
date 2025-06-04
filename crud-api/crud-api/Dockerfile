@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre 
+FROM openjdk:17-jre-slim
 # Use a imagem base do OpenJDK 11
  
 WORKDIR /app
