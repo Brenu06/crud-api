@@ -1,0 +1,4 @@
+com\example\crudapi\CrudApiApplication.class
+com\example\crudapi\model\Product.class
+com\example\crudapi\repository\ProductRepository.class
+com\example\crudapi\controller\ProductController.class
