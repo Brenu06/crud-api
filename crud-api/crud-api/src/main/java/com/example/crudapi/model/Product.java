@@ -1,6 +1,9 @@
 package com.example.crudapi.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 public class Product {
+    @Schema(accessMode = Schema.AccessMode.READ_ONLY)
     private Long id;
     private String nome;
     private Double preco;
